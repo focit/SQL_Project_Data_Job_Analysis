@@ -59,6 +59,7 @@ Aquí tienes el desglose de los principales trabajos de analista de datos en 202
 
 
 ![Top Paying Roles](grafico_analisis\Figure_1.png)
+
 *Gráfico de barras que visualiza el salario de los 10 mejores salarios para analistas de datos junior; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL*
 
 ### 2. Habilidades para Trabajos Mejor Remunerados
@@ -101,6 +102,7 @@ Aquí tienes el desglose de las habilidades más demandadas para los 10 mejores 
 - Otras habilidades a considerar son **R, Visual Basic, Word, Julia, Phoenix, Powerpoint y Jira** sin embargo su demanda es limitada a 1. 
 
 ![Top Paying Skills](grafico_analisis\Figure_2.png)
+
 *Gráfico de barras que visualiza el recuento de habilidades para los 10 mejores trabajos pagados para analistas de datos; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL.*
 
 ### 3. Habilidades Más Demandadas para Analistas de Datos 
@@ -132,6 +134,7 @@ Aquí tienes el desglose de las habilidades más demandadas para analistas de da
 | PYTHON       |   4330            |
 | TABLEAU      |   3745            |
 | POWER BI     |   2609            |
+
 *Tabla de la demanda de las 5 habilidades principales en las publicaciones de trabajo para analistas de datos.*
 
 ### 4. Habilidades Basadas en el Salario 
@@ -170,6 +173,7 @@ Aquí tienes un desglose de los resultados para las habilidades mejor pagadas pa
 | JUPYTER       |   152777         |
 | PANDAS        |   151821         |
 | ELASTICSEARCH |   145000         |
+
 *Tabla del salario promedio para las 10 habilidades mejor remuneradas para analistas de datos*
 
 ### 5. Habilidades Más Óptimas para Aprender 
@@ -204,6 +208,7 @@ ORDER BY avg_salary DESC
 |  4     | JAVA      |         17           |     106906       |
 |  194   | SSIS      |         12           |     106683       |
 |  233   | JIRA      |         20           |     104918       |
+
 *Tabla de las habilidades más óptimas para analistas de datos ordenadas por salario.*
 
 Aquí tienes un desglose de las habilidades más óptimas para Analistas de Datos en 2023: 
