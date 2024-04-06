@@ -58,7 +58,7 @@ Aquí tienes el desglose de los principales trabajos de analista de datos en 202
 - **Empleadores Diversos**: Empresas como Coders Data, Morion Recruitment y Patterned Learning AI se encuentran entre aquellas que ofrecen salarios altos aun para un analista de datos junior, mostrando un interés amplio en diferentes industrias aún para puestos iniciales. 
 
 
-![Top Mejores Trabajos](C:\Users\eduar\Desktop\SQL_Project_Data_Job_Analysis\assets\Top_10_salario.png)
+![Top Mejores Trabajos](assets\Top_10_salario.png)
 
 *Gráfico de barras que visualiza el salario de los 10 mejores salarios para analistas de datos junior; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL*
 
@@ -100,7 +100,7 @@ Aquí tienes el desglose de las habilidades más demandadas para los 10 mejores 
 - **Python** también es solicitado, con un recuento destacado de 3.
 - Otras habilidades a considerar son **R, Visual Basic, Sharepoint, Sheets, Vba, Word, Julia, Phoenix, Powerpoint y Jira** sin embargo, su demanda es corta.
 
-![Top Habilidades Pagadas](C:\Users\eduar\Desktop\SQL_Project_Data_Job_Analysis\assets\Top_10_skills.png)
+![Top Habilidades Pagadas](assets\Top_10_skills.png)
 
 *Gráfico de barras que visualiza el recuento de habilidades para los 10 mejores trabajos pagados para analistas de datos; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL.*
 
@@ -234,3 +234,6 @@ Del análisis, surgieron varios Insights:
 
 ### Reflexiones Finales 
 Este proyecto fue desarrollado para mejorar mis habilidades de SQL y proporcionar ideas valiosas sobre el mercado laboral de analistas de datos. Los hallazgos del análisis sirven como guía para priorizar el desarrollo de habilidades y los esfuerzos de búsqueda de empleo. Los aspirantes a analistas de datos ahora conocen las principales habilidades que deben desarrollar como **SQL y Excel** y de visualización como **Tableau y Power BI** para posicionarse mejor en un mercado laboral competitivo. Esta exploración destaca la importancia del aprendizaje continuo y la adaptación a las tendencias emergentes en el campo del análisis de datos para obtener mejores oportunidades laborales y un mejor salario.
+
+
+[def]: C:\Users\eduar\Desktop\SQL_Project_Data_Job_Analysis\assets\Top_10_salario.png
