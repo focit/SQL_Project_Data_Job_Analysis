@@ -58,7 +58,7 @@ Aquí tienes el desglose de los principales trabajos de analista de datos en 202
 - **Empleadores Diversos**: Empresas como Coders Data, Morion Recruitment y Patterned Learning AI se encuentran entre aquellas que ofrecen salarios altos aun para un analista de datos junior, mostrando un interés amplio en diferentes industrias aún para puestos iniciales. 
 
 
-![Top Paying Roles](C:\Users\eduar\Desktop\SQL_Project_Data_Job_Analysis\grafico_analisis\Figure_1.png)
+![Top Mejores Trabajos](C:\Users\eduar\Desktop\SQL_Project_Data_Job_Analysis\assets\Top_10_salario.png)
 
 *Gráfico de barras que visualiza el salario de los 10 mejores salarios para analistas de datos junior; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL*
 
@@ -100,7 +100,7 @@ Aquí tienes el desglose de las habilidades más demandadas para los 10 mejores 
 - **Python** también es solicitado, con un recuento destacado de 3.
 - Otras habilidades a considerar son **R, Visual Basic, Sharepoint, Sheets, Vba, Word, Julia, Phoenix, Powerpoint y Jira** sin embargo, su demanda es corta.
 
-![Top Paying Skills](C:\Users\eduar\Desktop\SQL_Project_Data_Job_Analysis\grafico_analisis\Figure_2.png)
+![Top Habilidades Pagadas](C:\Users\eduar\Desktop\SQL_Project_Data_Job_Analysis\assets\Top_10_skills.png)
 
 *Gráfico de barras que visualiza el recuento de habilidades para los 10 mejores trabajos pagados para analistas de datos; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL.*
 
