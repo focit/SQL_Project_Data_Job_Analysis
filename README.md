@@ -1,6 +1,6 @@
 # Introducción
 
-¡Adéntrate en el mercado laboral de análisis de datos! Centrándose en roles de analista de datos, este proyecto explora los trabajos mejor remunerados, las habilidades más demandadas y dónde se encuentran la alta demanda con los altos salarios en análisis de datos. 
+¡Adéntrate en el mercado laboral de análisis de datos! Centrándose en roles de analista de datos, este proyecto explora los trabajos mejor remunerados, las habilidades más demandadas y dónde se encuentra la alta demanda con los altos salarios en análisis de datos. 
 
 ¿Consultas SQL? Encuéntralas aquí: [sql_project folder](/sql_project/) 
 
@@ -8,7 +8,7 @@
 # Antecedentes
 
 Interesado en el análisis de datos decidí realizar una búsqueda más efectiva en este mercado laborar, este proyecto nació de un deseo de identificar las habilidades más demandadas y mejor pagadas, optimizando el trabajo de otros para encontrar trabajos óptimos, ya sea como analista de datos o como analista de datos junior. 
-Los datos provienen del Curso de SQL de Luke Barousse [SQL Course](https://www.lukebarousse.com/sql). Está repleto de información sobre títulos de trabajo, salarios, ubicaciones y habilidades esenciales. 
+Los datos y las bases el proyecto provienen del Curso de SQL de Luke Barousse [SQL Course](https://www.lukebarousse.com/sql). Está repleto de información sobre títulos de trabajo, salarios, ubicaciones y habilidades esenciales. 
 
 ### Las preguntas que quería responder a través de mis consultas SQL fueron:
 1.	¿Cuáles son los trabajos de analista de datos junior mejor remunerados?
@@ -55,10 +55,10 @@ LIMIT 10;
 ```
 Aquí tienes el desglose de los principales trabajos de analista de datos en 2023: 
 - **Amplio Rango Salarial**: Los 10 roles de analista de datos junior mejor pagados van desde $52,500 hasta $80,000 USD anuales, lo que indica un potencial salarial significativo en el campo. 
-- **Empleadores Diversos**: Empresas como Coders Data, Morion Recruitment y Patterned Learning AI se encuentran entre aquellas que ofrecen salarios altos aun para un analista de datos junior, mostrando un interés amplio en diferentes industrias. 
+- **Empleadores Diversos**: Empresas como Coders Data, Morion Recruitment y Patterned Learning AI se encuentran entre aquellas que ofrecen salarios altos aun para un analista de datos junior, mostrando un interés amplio en diferentes industrias aún para puestos iniciales. 
 
 
-![Top Paying Roles](grafico_analisis/Figure_1.png)
+![Top Paying Roles](C:\Users\eduar\Desktop\SQL_Project_Data_Job_Analysis\grafico_analisis\Figure_1.png)
 
 *Gráfico de barras que visualiza el salario de los 10 mejores salarios para analistas de datos junior; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL*
 
@@ -76,7 +76,7 @@ WITH top_paying_job AS (
         job_postings_fact
     LEFT JOIN company_dim ON job_postings_fact.company_id = company_dim.company_id
     WHERE
-        job_title LIKE '%Junior%Data Analyst%' AND
+        job_title LIKE '%Junior%Data_Analyst%' AND
         job_location IN ('Anywhere','Mexico') AND
         salary_year_avg IS NOT NULL
     ORDER BY
@@ -96,17 +96,16 @@ ORDER BY
 ```
 Aquí tienes el desglose de las habilidades más demandadas para los 10 mejores trabajos de analista de datos en 2023: 
 - **Excel y SQL** lideran con un recuento destacado de 7. 
-- El programa de visualización **Tableau** le sigue de cerca con un recuento destacado de 4. 
+- Contínuan los programas de visualización como **Tableau y PowerB BI** con un recuento destacado de 4 y 2.
 - **Python** también es solicitado, con un recuento destacado de 3.
-- Continúan **Power BI, Sharepoint, Sheets y Vba** con 2 recuentos destacados. 
-- Otras habilidades a considerar son **R, Visual Basic, Word, Julia, Phoenix, Powerpoint y Jira** sin embargo su demanda es limitada a 1. 
+- Otras habilidades a considerar son **R, Visual Basic, Sharepoint, Sheets, Vba, Word, Julia, Phoenix, Powerpoint y Jira** sin embargo, su demanda es corta.
 
-![Top Paying Skills](grafico_analisis/Figure_2.png)
+![Top Paying Skills](C:\Users\eduar\Desktop\SQL_Project_Data_Job_Analysis\grafico_analisis\Figure_2.png)
 
 *Gráfico de barras que visualiza el recuento de habilidades para los 10 mejores trabajos pagados para analistas de datos; el gráfico se generó con Matplotlib a partir de los resultados de mi consulta SQL.*
 
 ### 3. Habilidades Más Demandadas para Analistas de Datos 
-Esta consulta ayudó a identificar las habilidades más solicitadas con mayor frecuencia en las publicaciones de trabajo, dirigiendo el enfoque hacia áreas con alta demanda sonalemte en análisis de datos. 
+Esta consulta ayudó a identificar las habilidades más solicitadas con mayor frecuencia en las publicaciones de trabajo, dirigiendo el enfoque hacia áreas con alta demanda en análisis de datos.
 
 ```sql
 SELECT
@@ -123,7 +122,7 @@ ORDER BY demand_skills DESC
 LIMIT 5;
 ```
 Aquí tienes el desglose de las habilidades más demandadas para analistas de datos en 2023: 
-- **SQL y Excel** siguen siendo fundamentales, enfatizando la necesidad de habilidades fundamentales sólidas en procesamiento de datos y manipulación de hojas de cálculo. 
+- **SQL y Excel** siguen siendo fundamentales, enfatizando la necesidad de un conocimiento sólido en procesamiento de datos y manipulación de hojas de cálculo. 
 - La programación y las herramientas de visualización como **Python, Tableau y Power BI** son esenciales, lo que apunta hacia la creciente importancia de habilidades técnicas en la narración de datos y el soporte para la toma de decisiones. 
 
 
@@ -157,7 +156,7 @@ LIMIT 25;
 ```
 
 Aquí tienes un desglose de los resultados para las habilidades mejor pagadas para los Analistas de Datos: 
-- **Alta Demanda de Habilidades en Big Data y ML:** Los salarios más altos son comandados por analistas con habilidades en tecnologías de big data (PySpark, Couchbase), herramientas de aprendizaje automático (DataRobot, Jupyter) y bibliotecas de Python (Pandas, NumPy), lo que refleja la alta valoración de la industria por las capacidades de procesamiento de datos y modelado predictivo. 
+- **Alta Demanda de Habilidades en Big Data y ML:** Los salarios más altos son comandados por analistas con habilidades en tecnologías de big data (PySpark, Couchbase), herramientas de aprendizaje automático (DataRobot, Jupyter) y bibliotecas de Python (Pandas, NumPy); lo que refleja la alta valoración de la industria por las capacidades de procesamiento de datos y modelado predictivo. 
 - **Proficiencia en Desarrollo y Despliegue de Software:** El conocimiento en herramientas de desarrollo y despliegue (GitLab, Kubernetes, Airflow) indica una lucrativa intersección entre el análisis de datos y la ingeniería, con un énfasis en habilidades que facilitan la automatización y una gestión eficiente de las canalizaciones de datos. 
 - **Expertise en Computación en la Nube:** La familiaridad con herramientas de computación en la nube e ingeniería de datos (Elasticsearch, Databricks, GCP) subraya la creciente importancia de los entornos de análisis basados en la nube, lo que sugiere que la competencia en la nube aumenta significativamente el potencial de ingresos en el análisis de datos. 
 
@@ -197,7 +196,7 @@ ORDER BY avg_salary DESC
 ```
 
 |SKILL_ID|HABILIDADES|HABILIDADES DEMANDADAS| SALARIO PROMEDIO |
-|----------|-----------|----------------------|------------------|
+|--------|-----------|----------------------|------------------|
 |  8     |   GO      |         27           |     115320       |
 |  234   |CONFLUENCE |         11           |     114210       |
 |  97    | HADOOP    |         22           |     113193       |
@@ -227,11 +226,11 @@ A lo largo de esta investigación potencié mi kit de herramientas de SQL con un
 # Conclusión
 ### Insights 
 Del análisis, surgieron varios Insights:
-1.	**Trabajos de Analista de Datos Mejor Remunerados:** ¡Los trabajos mejor pagados para analistas de datos que permiten trabajar de forma remota ofrecen una amplia gama de salarios, ¡el más alto es de $650,000!. Incluso como principiante una persona puede obtener un puesto de trabajo como analista de datos junio y un salario de $80,000.
+1.	**Trabajos de Analista de Datos Mejor Remunerados:** ¡Los trabajos mejor pagados para analistas de datos que permiten trabajar de forma remota ofrecen una amplia gama de salarios, ¡el más alto es de $650,000!. Incluso como principiante una persona puede obtener un puesto de trabajo como analista de datos junio y un salario de $80,000 USD al año.
 2.	**Habilidades para Trabajos Mejor Remunerados:** Los trabajos de analista de datos mejor remunerados requieren proficiencia avanzada en SQL, lo que sugiere que es una habilidad crítica para ganar un salario alto.
 3.	**Habilidades Más Demandadas:** SQL también es la habilidad más demandada en el mercado laboral de analistas de datos, por lo que es esencial para los buscadores de empleo.
 4.	**Habilidades con Salarios Más Altos:** Habilidades especializadas, como SVN y Solidity, están asociadas con los salarios promedio más altos, lo que indica un valor adicional en la experiencia especializada.
 5.	**Habilidades Óptimas para el Valor en el Mercado Laboral:** SQL lidera en demanda y ofertas de un alto salario promedio, posicionándolo como una de las habilidades más óptimas para que los analistas de datos aprendan y maximicen su valor en el mercado.
 
 ### Reflexiones Finales 
-Este proyecto fue desarrollado para mejorar mis habilidades de SQL y proporcionar ideas valiosas sobre el mercado laboral de analistas de datos. Los hallazgos del análisis sirven como guía para priorizar el desarrollo de habilidades y los esfuerzos de búsqueda de empleo. Los aspirantes a analistas de datos pueden posicionarse mejor en un mercado laboral competitivo al centrarse en habilidades de alta demanda y alto salario. Esta exploración destaca la importancia del aprendizaje continuo y la adaptación a las tendencias emergentes en el campo del análisis de datos.
+Este proyecto fue desarrollado para mejorar mis habilidades de SQL y proporcionar ideas valiosas sobre el mercado laboral de analistas de datos. Los hallazgos del análisis sirven como guía para priorizar el desarrollo de habilidades y los esfuerzos de búsqueda de empleo. Los aspirantes a analistas de datos ahora conocen las principales habilidades que deben desarrollar como **SQL y Excel** y de visualización como **Tableau y Power BI** para posicionarse mejor en un mercado laboral competitivo. Esta exploración destaca la importancia del aprendizaje continuo y la adaptación a las tendencias emergentes en el campo del análisis de datos para obtener mejores oportunidades laborales y un mejor salario.
