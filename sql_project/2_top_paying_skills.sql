@@ -31,7 +31,7 @@ FROM
 INNER JOIN skills_job_dim ON top_paying_job.job_id = skills_job_dim.job_id
 INNER JOIN skills_dim ON skills_job_dim.skill_id = skills_dim.skill_id
 ORDER BY  
-    salary_year_avg DESC
+    salary_year_avg DESC;
 
 /*
 Conclusiones:
@@ -41,7 +41,7 @@ ya que son requerridas en 8 empleos.
 3. Las siguientes son python, powerbi, sharepoint, sheets y vba.
 4. Otras habilidades que solo han sido pedidos en un trabajo son word, nosql, ms access, confluence, jira, julia, phoenix, powertpoint y r.
 
-Se adjunta el código en sql con la tabla resultante de la búsqueda:
+Se adjunta el código en JSON con la tabla resultante de la búsqueda:
 [
   {
     "job_id": 564679,
